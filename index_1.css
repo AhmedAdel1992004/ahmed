@@ -1,0 +1,35 @@
+.photo2{
+    width: 30%;
+    height: 600px;
+    background:url("photo/photo2.jpg") ;
+    background-size: cover;
+    /* border: 10px solid  blueviolet; */
+    border-radius: 40px; /* ده للاطار */
+    padding-right: 20px;
+    margin-left: 100px;
+    /* box-shadow: 10px 2px 4px #cbced1 , -10px -2px 4px  #cbced1; */
+}
+
+.text2{
+   width: 25%;
+   margin-left: 300px;
+   /* border: 10px solid  white; */
+   padding-left: 10px ;
+   border-radius: 20px; /* ده للاطار */
+   font-size: large;
+   background-color: wheat;
+
+}
+
+.text2:hover{
+   box-shadow: 0 0 20px 0 aqua;
+   transition: 0.6s;
+}
+
+.photo2:hover{
+    box-shadow: 0 0 20px 0 aqua;
+   transition: 0.6s;
+}
+.action {
+    display: flex;
+}
